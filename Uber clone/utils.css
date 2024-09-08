@@ -1,0 +1,64 @@
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+  flex-wrap: wrap;
+}
+.flex_col{
+    flex-direction: column;
+}
+.list_btn {
+  background-color: white;
+  color: black;
+  padding:8px 9px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input_forms {
+  width: 100%;
+}
+
+.input_forms input {
+  width: 80%;
+  padding: 3% 9%;
+  color: black;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+}
+
+.btn{
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  padding: 14px 18px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.main_btn{
+
+  width: 100%;
+}
+

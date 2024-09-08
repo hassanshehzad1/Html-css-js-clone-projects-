@@ -1,0 +1,173 @@
+/* responsiveness of your code */
+/* for 1100 */
+
+body {
+  /* overflow-x: hidden; */
+}
+@media screen and (max-width: 1100px) {
+  .ham_burger {
+    display: block !important;
+  }
+  header nav{
+    display: none !important;
+  }
+.main{
+  flex-direction: column;
+  /* width: 100% !important; */
+  align-items: flex-start;
+  gap: 20px;
+  /* margin-top: 0% !important; */
+}
+.right_main{
+  width: 100%;
+  order: 2;
+}
+.left_main{
+  width: 100%;
+}
+.left_main input{
+  width: 50%;
+  /* padding: 20px 20px; */
+}
+.first_input_arrows{
+  right: 52%;
+}
+.left_main h1{
+  margin-bottom:10px;
+  font-size: 2.5rem !important;
+  font-weight: 600 !important;
+
+  }
+  .left_main .white_btn{
+    margin: 0;
+  }
+  .bar_code_imag{
+    width: 18%;
+  }
+  .bar_unit{
+    width: 100%;
+  }
+.bar_code_right{
+  width: 80%;
+}
+.white_section .main{
+  margin-top: 0 !important;
+}
+.left_main{
+  width: 95%;
+}
+.each_div{
+  width: 100%;
+}
+.sign_four_divs{
+  grid-template-columns: auto;
+  align-items: flex-start !important;
+  
+}
+.bar_unit h3{
+  font-size: 1.3rem !important;
+}
+.input_forms input {
+  padding: 2% 9% !important;
+}
+.footer_section{
+  width: 100vw !important;
+}
+
+.footer_section .each_div{
+  width: 50% !important;
+   margin:  2% 0 7% 0;
+   gap: 0 !important;
+}
+.footer_icons{
+  gap: 20px !important;
+  margin: 4% 0;
+} 
+}
+@media screen and (max-width: 590px) {
+
+  .ham_burger {
+    display: block !important;
+  }
+  header nav{
+    display: none !important;
+  }
+.main{
+  flex-direction: column;
+  /* width: 100% !important; */
+  align-items: flex-start;
+  gap: 02px;
+  /* margin-top: 0% !important; */
+}
+.right_main{
+  width: 100%;
+  order: 2;
+}
+.left_main{
+  width: 100%;
+  margin-top: 5%;
+  gap: 10px !important;
+}
+.left_main input{
+  width: 100%;
+  padding: 4% 9% !important;
+}
+.first_input_arrows{
+  right: 2%;
+}
+.right_main {
+  margin-top: 5%;
+}
+.left_main  h1{
+  font-size: 3rem !important;
+
+}
+.left_main p {
+  font-size: 1rem !important;
+}
+.main_btn {
+  gap: 15px !important;
+}
+.main_btn .btn_black {
+  width: 40% !important;
+}
+  .left_main .white_btn{
+    margin: 0;
+  }
+  .bar_code_imag{
+    width: 20%;
+  }
+  .bar_unit{
+    width: 100%;
+  }
+.bar_code_right{
+  width: 80%;
+}
+.white_section .main{
+  margin-top: 0 !important;
+}
+.left_main{
+  width: 95%;
+}
+.each_div{
+  width: 100%;
+}
+.sign_four_divs{
+  grid-template-columns: auto;
+  align-items: flex-start !important;
+  
+}
+.bar_unit h3{
+  font-size: 1.3rem !important;
+}
+
+.footer_section .each_div{
+  width: 100% !important;
+   margin:  2% 0 7% 0;
+   gap: 0 !important;
+}
+}
+
+
+
+/* for 560 */
