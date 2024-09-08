@@ -6,7 +6,7 @@ This repository conatains a collection of popular websites and application clone
 -**Features** Resposive design, movie poster grid, hover effects.
 -**Technologies**:HTML CSS JAVASCRIPT
 ----------------
-<br>
+
 # 2 **UBER CLONE**
 -**-**Responsive Design**: Adapts to different screen sizes, including mobile and desktop views.
 -**Ride Booking UI**: Users can input pickup and drop-off locations and select ride types (e.g., UberX, UberXL, etc.).
