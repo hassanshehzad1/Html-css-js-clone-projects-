@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* media queries for max width */
+@media screen and (max-width: 1100px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .email_btn {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+    width: 15%;
+  }
+  .cards .card {
+    width: 45%;
+    gap: 2px;
+  }
+  .cards {
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    width: 100%;
+  }
+  .choices {
+    width: 35%;
+  }
+  .content_section {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 950px) {
+  nav {
+    max-width: 100%;
+  }
+  .content_section {
+    width: 98%;
+  }
+  .btn {
+    font-size: 1rem;
+    width: 15%;
+  }
+  .cards .card {
+    width: 100%;
+    justify-content: left;
+  }
+  .card div {
+    justify-content: left;
+  }
+  .card_image_div {
+    width: 15%;
+  }
+  #email {
+    width: 93% !important;
+  }
+  .choices {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  .main #email {
+    width: 60% !important;
+    margin: 2% 0;
+  }
+  .main #email p {
+    width: 60%;
+  }
+  .top_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .top_content p {
+    font-size: 0.8rem;
+  }
+  .login_page .login_cred input {
+    font-size: 0.8rem !important;
+  }
+  .login_page {
+    width: 50%;
+  }
+  .form_sec {
+    margin: 10px 0;
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .main #email {
+    flex-direction: column;
+    gap: 20px;
+    width: 90% !important;
+  }
+  .front_display {
+    /* width: 100% important; */
+  }
+  .faqs_section {
+    font-size: 0.6rem !important;
+  }
+  .none {
+    display: none;
+  }
+  .sec {
+    display: block;
+    font-size: 2rem;
+  }
+  .sec .login_page .form_sec .login_btns button {
+    font-size: 1rem !important;
+  }
+  .sec .login_page .login_cred input {
+    font-size: 1.4rem !important;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+  }
+  .email_2 {
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start !important;
+    gap: 20px;
+    padding: 5% 0;
+  }
+  .email_2 input {
+    margin: 2% 0;
+  }
+
+  .top_content {
+    padding: 2% 5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .btn {
+    font-size: 1rem !important;
+    width: 30%;
+  }
+  .background_image {
+    height: 70dvh;
+  }
+  .top_content h1 {
+    font-size: 2rem !important;
+  }
+  .top_content h2 {
+    font-size: 1rem !important;
+  }
+  .top_content p {
+    font-size: 1rem !important;
+    margin: 2% 0;
+  }
+  .top_content {
+    margin: 20px 0;
+  }
+  .sec .login_page .login_cred input {
+    font-size: 1rem !important;
+  }
+}

@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.image_flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 9%;
+  padding: 8px 8px;
+  color: rgb(255, 255, 255);
+  background: rgb(229, 9, 20);
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* image gallery */
+.image_gallery img {
+  width: 100%;
+}
+
+/* cards */
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 30%;
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  padding: 20px;
+  letter-spacing: 0.5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 20%;
+}
+.card h3 {
+  font-size: 1.3em;
+}
+.card img{
+  width: 100%;
+}
+.card_image_div{
+  width: 23%;
+  position: absolute;
+  background-color: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  bottom: -1px;
+  right: 1px;
+  color: white;
+}
+
+
+/* FAQS */
+.faqs_body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding: 20px 20px; */
+  flex-direction: column;
+  margin: 1% 0;
+}
+
+.faqs_question {
+  background-color: rgb(45, 45, 45);
+  font-size: 1.3em;
+  padding: 20px 30px;
+  margin-bottom: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-weight: lighter;
+  font-family:sans-serif !important;
+}
+.faqs_question:hover {
+  background-color: rgb(55, 55, 55);
+}
+.faqs_answer {
+  background-color: rgb(45, 45, 45);
+  padding: 20px 30px;
+  font-size: 1.3em;
+}
+
+.faqs_body .faqs_question .faqs_plus {
+  width: 2%;
+  color: rgb(45, 45, 45);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 45, 45);
+ 
+}
+.faqs_body .faqs_question .faqs_plus:hover{
+  background-color: rgb(55, 55, 55);
+}
+.faqs_btn {
+  color: rgb(45, 45, 45);;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgb(45, 45, 45);
+
+  /* background: !important; */
+  /* mix-blend-mode: multiply; */
+  /* background-color: #192247; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faqs_btn:hover{
+  background-color:   rgb(55, 55, 55);;
+}
+
+.hide{
+  display: none;
+}
+/* f */
+a{
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+
+/* login page */
+.login_page{
+  background-color: lightblue;
+
+}
+.card div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
